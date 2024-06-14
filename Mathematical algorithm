@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void exampleAlgorithm1(int n) {
+    for (int i = 0; i < n; i++) {
+        printf("Example Algorithm 1\n");
+    }
+}
+
+void exampleAlgorithm2(int n) {
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            printf("Example Algorithm 2\n");
+        }
+    }
+}
+
+int main() {
+    int inputSize = 5;
+
+    
+    exampleAlgorithm1(inputSize);
+
+    
+    exampleAlgorithm2(inputSize);
+
+    return 0;
+}
